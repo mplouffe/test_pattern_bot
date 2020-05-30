@@ -1,0 +1,14 @@
+{
+    "name": "Test_Pattern_Bot",
+    "description": "Twitter bot that procedurally generates hypothetical test patterns",
+    "credentials": {
+        "consumer_key": "TEST_PATTERN_BOT_TWITTER_CONSUMER_KEY",
+        "consumer_secret": "TEST_PATTERN_BOT_TWITTER_CONSUMER_SECRET",
+        "access_token_key": "TEST_PATTERN_BOT_TWITTER_ACCESS_TOKEN_KEY",
+        "access_token_secret": "TEST_PATTERN_BOT_TWITTER_ACCESS_TOKEN_SECRET"
+    },
+    "schedule": {
+        "function": "testPatternTweet",
+        "interval": 8
+    }
+}
